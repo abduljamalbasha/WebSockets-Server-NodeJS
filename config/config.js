@@ -1,0 +1,21 @@
+module.exports = {
+  VES1: "/VESSEL1",
+  VES2: "/VESSEL2",
+  SHORE: "SPSHORE",
+  SHIP: "SPSHIP",
+  nspVes1: 'vessel1',
+  nspVes2: 'vessel2',
+  chunkSize: 512000,
+  port: 80,
+  connection: 'connection',
+  disconnect: 'disconnect',
+  shipReadyToSend: 'shipReadyToSend',
+  shipReadyToReceive: 'shipReadyToReceive',
+  filesFromClient: 'filesFromClient',
+  filesToClient: 'filesToClient',
+  server: 'Server',
+  sendDirectory: 'sendToShore',
+  receiveDirectory: 'receivedFromShore',
+  communicationDirectory: __dirname + '/../' +'\\communication\\',
+  uuid: '731a397a-d89c-43c5-b007-5cbd91e047f3'
+}
